@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:id="@+id/lyEdit"
     android:background="@drawable/bg"
-    tools:context="ar.codeslu.plax.auth.DataSet">
+    tools:context="com.up.lix.auth.DataSet">
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
@@ -32,7 +32,7 @@
                     android:layout_marginTop="0dp"
                     android:onClick="changeprofile"
                     android:src="@drawable/profile"
-                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_color="#FF2952"
                     app:civ_border_width="2dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -87,9 +87,9 @@
                     android:layout_marginEnd="50dp"
                     android:maxLength="20"
                     android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
+                    android:paddingStart="15dp"
                     android:textColorHint="@color/white"
-                    android:paddingRight="15dp"
+                    android:paddingEnd="15dp"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
                 <com.vanniktech.emoji.EmojiTextView
@@ -110,9 +110,9 @@
                     android:id="@+id/statueE"
                     android:layout_marginEnd="50dp"
                     android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
+                    android:paddingStart="15dp"
                     android:textColorHint="@color/white"
-                    android:paddingRight="15dp"
+                    android:paddingEnd="15dp"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
                 <Button

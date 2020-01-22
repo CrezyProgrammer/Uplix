@@ -11,7 +11,7 @@
         app:fl_originalWidth="200"
         app:fl_originalHeight="200"
         app:fl_strokeColor="@color/white"
-        app:fl_fillColor="@color/colorPrimary"
+        app:fl_fillColor="#FF2952"
         app:fl_strokeWidth="200dp"
         app:fl_strokeDrawingDuration="200"
         app:fl_fillDuration="2000"

@@ -33,7 +33,7 @@
             android:layout_height="50dp"
             android:background="@drawable/shape_outcoming_message"
             android:orientation="vertical"
-            android:paddingLeft="4dp">
+            android:paddingStart="4dp">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -42,9 +42,9 @@
                     android:id="@+id/play_pause_layout"
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:paddingBottom="5dp"
-                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
                     android:paddingTop="5dp">
 
                     <ImageView
@@ -73,9 +73,9 @@
                     android:id="@+id/seekbar_layout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_toRightOf="@id/play_pause_layout"
+                    android:layout_toEndOf="@id/play_pause_layout"
                     android:paddingBottom="5dp"
-                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
                     android:paddingTop="5dp">
 
                     <SeekBar
@@ -88,9 +88,9 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="right|top"
+                        android:layout_gravity="end|top"
                         android:orientation="horizontal"
-                        android:paddingRight="10dp"
+                        android:paddingEnd="10dp"
                         android:layout_marginBottom="20dp"
                         >
 
@@ -143,7 +143,7 @@
             android:layout_gravity="end|center_vertical"
             android:gravity="end|center_vertical"
             app:riv_corner_radius_bottom_left="15dip"
-            app:riv_corner_radius_bottom_right="0dip"
+            app:riv_corner_radius_bottom_right="15dip"
             app:riv_corner_radius_top_left="15dip"
             app:riv_corner_radius_top_right="15dp"
             app:riv_border_width="1dp"
@@ -166,7 +166,7 @@
         android:gravity="end|center_vertical"
         android:layout_height="150dp"
         app:riv_corner_radius_bottom_left="15dip"
-        app:riv_corner_radius_bottom_right="0dip"
+        app:riv_corner_radius_bottom_right="15dip"
         app:riv_corner_radius_top_left="15dip"
         app:riv_corner_radius_top_right="15dp"
         app:riv_border_width="1dp"
@@ -220,6 +220,29 @@
 
         </com.google.android.flexbox.FlexboxLayout>
     <LinearLayout
+        android:id="@+id/replyb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:gravity="end"
+        android:layout_marginTop="-7dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/shape_reply_message"
+        >
+
+        <com.stfalcon.chatkit.link.AutoLinkTextView
+            android:id="@+id/replytext"
+            android:layout_margin="7dp"
+            android:autoLink="web"
+            android:textColor="@color/white"
+            android:linksClickable="true"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"/>
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_gravity="end|center_vertical"
         android:gravity="end|center_vertical"
@@ -252,6 +275,24 @@
             android:layout_marginStart="5dp"
             android:src="@drawable/errorimg"
             android:id="@+id/retry"
+            android:layout_gravity="center_vertical|end" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/forward"
+            android:src="@drawable/forward"
+            android:tint="#FF2952"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical|end"
+            android:layout_gravity="center_vertical|end" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/call"
+            android:src="@drawable/ic_call"
+            android:tint="#FF2952"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical|end"
             android:layout_gravity="center_vertical|end" />
     </LinearLayout>
 

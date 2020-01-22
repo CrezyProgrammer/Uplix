@@ -1,28 +1,23 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'io.fabric'
 
 android {
-    signingConfigs {
-        config {
-            storeFile file('/Users/mostafa/Downloads/Github/plax/CodeSlu')
-            storePassword 'cs123456'
-            keyAlias = 'plax'
-            keyPassword 'cs123456'
-        }
-    }
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
-        applicationId "ar.codeslu.plax"
+        applicationId "com.up.lix"
         minSdkVersion 19
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 29
+        versionCode 11
+        versionName "1.4.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
-
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
         }
@@ -46,12 +41,21 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'eu.long1:spacetablayout:1.0.4'
+    implementation 'it.auron:mecard-parser:1.1.3'
+    implementation 'com.github.kenglxn.QRGen:android:2.6.0'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'com.duolingo.open:rtl-viewpager:2.0.0'
+    implementation 'com.github.jaiselrahman:FilePicker:1.2.2'
+    implementation 'com.etebarian:meow-bottom-navigation:1.0.4'
+    implementation 'uk.co.samuelwall:material-tap-target-prompt:3.0.0'
+    implementation 'com.github.jgabrielfreitas:BlurImageView:1.0.1'
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation "com.github.DeweyReed:UltimateMusicPicker:2.0.6"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.4ert:audioview:1.4.5'
-    implementation 'com.github.farhanahmed95:pico:0.0.1@aar'
+    implementation 'com.github.neestell:mediapicker:1.2.2'
     implementation 'petrov.kristiyan:colorpicker-library:1.1.10'
     implementation 'com.vanniktech:emoji-ios:0.6.0'
     implementation 'com.github.simbiose:Encryption:2.0.1'
@@ -62,8 +66,8 @@ dependencies {
     implementation 'com.karumi:dexter:5.0.0'
     testImplementation 'junit:junit:4.12'
     implementation 'io.github.tonnyl:light:1.0.0'
-    androidTestImplementation 'androidx.test:runner:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.github.chathuralakmal:AndroidImagePopup:1.2.1'
     implementation 'id.zelory:compressor:2.1.0'
     implementation 'com.iceteck.silicompressorr:silicompressor:2.2.2'
@@ -73,23 +77,26 @@ dependencies {
     implementation 'com.google.android.gms:play-services-places:17.0.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation "me.leolin:ShortcutBadger:1.1.22@aar"
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation 'com.google.firebase:firebase-database:18.0.0'
-    implementation 'com.tapadoo.android:alerter:3.0.0'
-    implementation 'com.google.firebase:firebase-auth:18.0.0'
-    implementation 'com.google.firebase:firebase-core:17.0.0'
-    implementation 'com.google.firebase:firebase-functions:18.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-functions:19.0.1'
     implementation 'com.firebase:firebase-client-android:2.5.0'
-    implementation 'com.google.firebase:firebase-storage:18.0.0'
-    implementation 'com.google.firebase:firebase-messaging:19.0.1'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    //noinspection GradleDynamicVersion
     implementation 'com.google.maps.android:android-maps-utils:0.5+'
-    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.jorgecastilloprz:fillableloaders:1.03@aar'
     implementation 'com.google.api-client:google-api-client:1.23.0'
-    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
     implementation 'com.github.quentin7b:android-location-tracker:3.2'
     implementation 'com.squareup.okhttp3:okhttp:3.11.0'
     implementation 'com.devlomi.record-view:record-view:2.0.1'
@@ -102,19 +109,20 @@ dependencies {
     implementation 'com.makeramen:roundedimageview:2.3.0'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
     implementation 'com.mindorks.android:prdownloader:0.5.0'
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
     implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.8'
     implementation 'com.nightonke:jellytogglebutton:1.0.2'
     implementation 'com.github.myinnos:AppFontChanger:1.0'
     implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
     implementation 'android.arch.lifecycle:livedata:1.1.1'
     implementation 'com.fxn769:pix:1.4.4'
+    implementation 'io.agora.rtc:full-sdk:2.9.1'
     implementation 'ja.burhanrashid52:photoeditor:0.4.0'
-    implementation(name:'sinch-android-rtc', version:'+', ext:'aar')
+    implementation 'com.github.safetysystemtechnology:android-shake-detector:v1.2'
 
     implementation('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
-        transitive = true;
+        transitive = true
     }
     implementation('com.github.thekhaeng:recycler-margin:1.2.1') {
         exclude group: 'com.android.support', module: 'recyclerview-v7'
@@ -124,6 +132,7 @@ dependencies {
     }
     implementation project(':chatkitlib')
     implementation project(path: ':storyview')
+    implementation project(path: ':alerter')
 }
 apply plugin: 'com.google.gms.google-services'
 repositories {

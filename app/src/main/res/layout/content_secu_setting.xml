@@ -20,11 +20,12 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:src="@drawable/ic_lock_outline_black_24dp" />
+            android:src="@drawable/ic_screen_lock" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:id="@+id/main1"
             android:layout_gravity="center"
             android:text="@string/screen_lock"
             android:gravity="center|start"
@@ -41,8 +42,8 @@
             app:jtbLeftBackgroundColor="@android:color/white"
             app:jtbRightBackgroundColor="@android:color/white"
             app:jtbLeftThumbColor="@android:color/darker_gray"
-            app:jtbRightThumbColor="@color/colorPrimary"
-            app:jtbLeftTextColor="@color/colorPrimary"
+            app:jtbRightThumbColor="#FF2952"
+            app:jtbLeftTextColor="#FF2952"
             app:jtbRightTextColor="@android:color/darker_gray"
             />
     </LinearLayout>
@@ -53,7 +54,7 @@
             android:text="@string/change_passcode"
             android:textAllCaps="false"
             android:id="@+id/lockB"
-            android:background="@color/colorPrimary"
+            android:background="#FF2952"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:layout_marginStart="30dp"
@@ -70,7 +71,7 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:src="@drawable/ic_phonelock"
+            android:src="@drawable/ic_prevent_chat_screen_shot"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,6 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:id="@+id/main2"
                 android:text="@string/prevent_chat_screen_shot"
                 android:gravity="center|start"
                 android:layout_marginStart="5dp"
@@ -107,8 +109,8 @@
             app:jtbLeftBackgroundColor="@android:color/white"
             app:jtbRightBackgroundColor="@android:color/white"
             app:jtbLeftThumbColor="@android:color/darker_gray"
-            app:jtbRightThumbColor="@color/colorPrimary"
-            app:jtbLeftTextColor="@color/colorPrimary"
+            app:jtbRightThumbColor="#FF2952"
+            app:jtbLeftTextColor="#FF2952"
             app:jtbRightTextColor="@android:color/darker_gray"
             />
     </LinearLayout>

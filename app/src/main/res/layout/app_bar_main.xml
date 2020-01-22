@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ar.codeslu.plax.MainActivity">
+    tools:context="com.up.lix.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="#FF2952"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
@@ -23,21 +23,12 @@
 
     <include layout="@layout/content_main" />
 
-    <eu.long1.spacetablayout.SpaceTabLayout
-        android:id="@+id/spaceTabLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:number_of_tabs="three"
-        app:starting_position="two"
-        app:tab_color="@color/colorPrimaryDark2awy"
-        app:button_color="@color/colorPrimary"
-        app:text_color="@color/white"
-        app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
-        app:icon_one="@drawable/ic_call"
-        app:icon_two="@drawable/ic_chat"
-        app:text_one="@string/calls"
-        app:text_two="@string/chats"
-        app:text_three="@string/groups"
-        app:icon_three="@drawable/ic_group" />
+
+    <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:layout_width="match_parent"
+        android:id="@+id/meownav"
+        app:mbn_selectedIconColor="@color/colorPrimary"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

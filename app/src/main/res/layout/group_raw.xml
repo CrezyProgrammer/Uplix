@@ -22,7 +22,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginBottom="5dp"
-        android:background="@color/colorPrimary"
+        android:background="#FF2952"
         app:riv_corner_radius_bottom_left="20dip"
         app:riv_corner_radius_bottom_right="20dip"
         app:riv_corner_radius_top_left="20dip"

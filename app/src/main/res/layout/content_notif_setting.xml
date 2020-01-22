@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ar.codeslu.plax.settingsitems.NotifSetting"
+    tools:context="com.up.lix.settingsitems.NotifSetting"
     tools:showIn="@layout/activity_notif_setting">
 
 
@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/notification_sound"
+                android:id="@+id/main1"
                 android:gravity="center|start"
                 android:layout_marginStart="5dp"
                 android:textColor="@color/black"
@@ -57,13 +58,14 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/ic_color"
+            android:src="@drawable/ic_led_color"
             android:id="@+id/ledI" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/led_color"
+                android:id="@+id/main2"
                 android:gravity="center|start"
                 android:layout_marginStart="5dp"
                 android:textColor="@color/black"

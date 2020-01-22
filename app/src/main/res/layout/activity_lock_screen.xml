@@ -21,7 +21,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             android:src="@drawable/profile"
-            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_color="#FF2952"
             app:civ_border_width="2dp" />
 
         <TextView
@@ -44,7 +44,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             app:aspectRatio="square"
-            app:normalStateColor="@color/colorPrimary"
+            app:normalStateColor="#FF2952"
             app:correctStateColor="@color/green"
             app:wrongStateColor="@color/pomegranate"
             app:aspectRatioEnabled="true"

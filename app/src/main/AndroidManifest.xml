@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ar.codeslu.plax">
+    package="com.up.lix">
 
     <uses-feature
         android:name="android.hardware.microphone"
         android:required="false" />
-
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -19,11 +20,14 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
 
     <application
-        android:name=".global.AppBack"
+        android:name="com.up.lix.global.AppBack"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
@@ -33,96 +37,188 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".calls.CallingActivityVideo" />
-        <activity
-            android:name=".calls.CallingActivity" />
-        <activity
-            android:name=".calls.IncAudioActivity" />
-        <activity
-            android:name=".calls.IncCallActivity" />
-
-        <activity
-            android:name=".Groups.AddUserGroup"
-            android:label="@string/title_activity_add_user_group"
+            android:name="com.up.lix.Qr"
+            android:label="@string/title_activity_qr"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Groups.ProfileGroup"
-            android:parentActivityName=".Groups.Group" />
+            android:name="com.up.lix.story.Archieve"
+            android:label="@string/title_activity_archieve"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Groups.Group"
+            android:name="com.up.lix.Invite"
+            android:label="@string/title_activity_invite"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.auth.VerifyDelete"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Groups.AddGroup"
+            android:name="com.up.lix.Favourite"
+            android:label="@string/title_activity_favourite"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.Mute"
+            android:label="@string/title_activity_mute"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.Block"
+            android:label="@string/title_activity_block"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.settingsitems.CallsSetting"
+            android:label="@string/title_activity_calls_setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.story.EditStory"
+            android:label="@string/title_activity_edit_story"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.up.lix.calls.CallingActivityVideo"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name="com.up.lix.calls.CallingActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.up.lix.calls.IncAudioActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.up.lix.calls.IncCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.up.lix.Groups.AddUserGroup"
+            android:label="@string/title_activity_add_user_group"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.up.lix.Forward"
+            android:label="@string/forward"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.up.lix.story.StoryPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.up.lix.Groups.ProfileGroup"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Groups.Group" />
+        <activity
+            android:name="com.up.lix.Groups.Group"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity" />
+        <activity
+            android:name="com.up.lix.Groups.AddGroup"
             android:label="@string/title_activity_add_group"
-            android:parentActivityName=".MainActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".settingsitems.NotifSetting"
+            android:name="com.up.lix.settingsitems.NotifSetting"
             android:label="@string/title_activity_notif_setting"
-            android:parentActivityName=".Setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Setting"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.up.lix.LockScreen" />
         <activity
-            android:name=".story.Stories"
-            android:label="@string/title_activity_stories"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LockScreen" />
-        <activity
-            android:name=".settingsitems.SecuSetting"
+            android:name="com.up.lix.settingsitems.SecuSetting"
             android:label="@string/title_activity_secu_setting"
-            android:parentActivityName=".Setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Setting"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".settingsitems.TestWall" />
         <activity
-            android:name=".settingsitems.ChatSettings"
+            android:name="com.up.lix.settingsitems.TestWall"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.up.lix.settingsitems.ChatSettings"
             android:label="@string/chatss"
-            android:parentActivityName=".Setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Setting"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.up.lix.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
+                <action android:name="ar.codeslu.plax.OPEN_DYNAMIC_SHORTCUT" />
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".auth.Login"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.auth.Login"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Profile"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.Profile"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".auth.Verify"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.auth.Verify"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".auth.DataSet"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.auth.DataSet"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".EditProfile"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity
-            android:name=".Contacts"
+            android:name="com.up.lix.EditProfile"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName=".MainActivity" />
+            android:launchMode="singleTop" />
         <activity
-            android:name=".Chat"
+            android:name="com.up.lix.Contacts"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.up.lix.MainActivity" />
         <activity
-            android:name=".Editor"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.Chat"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -132,7 +228,7 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <service
-            android:name=".notify.FCMR"
+            android:name="com.up.lix.notify.FCMR"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -140,13 +236,16 @@
         </service>
 
         <receiver
-            android:name=".global.CheckConnectivity"
+            android:name="com.up.lix.global.CheckConnectivity"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_APP_ID" />
         <meta-data
             android:name="android.support.FILE_PROVIDER_PATHS"
             android:resource="@xml/provider_paths" />
@@ -158,25 +257,32 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Map"
+            android:name="com.up.lix.Map"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/title_activity_map" />
+            android:label="@string/title_activity_map"
+            android:launchMode="singleTop" />
         <activity
-            android:name=".mediachat.VideoA"
+            android:name="com.up.lix.mediachat.VideoA"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName=".Chat" />
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Chat" />
         <activity
-            android:name=".mediachat.Photoa"
+            android:name="com.up.lix.mediachat.Photoa"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName=".Chat" />
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.Chat" />
         <activity
-            android:name=".story.AddStory"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:name="com.up.lix.story.AddStory"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Setting"
+            android:name="com.up.lix.Setting"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_setting"
-            android:parentActivityName=".MainActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.up.lix.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
     </application>
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#03a9f4</color>
-    <color name="colorPrimaryDark">#0288d1</color>
-    <color name="colorAccent">#0288d1</color>
+    <color name="colorPrimary">#FF2952</color>
+    <color name="colorPrimaryDark">#FF2952</color>
+    <color name="colorAccent">#FF2952</color>
     <color name="black_overlay">#66000000</color>
     <color name="green">#2ecc71</color>
     <color name="red">#ea2027</color>
@@ -12,9 +12,9 @@
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="gradStart">#19AA8B</color>
-    <color name="gradStop">#23A7D8</color>
+    <color name="gradStop">#FF2952</color>
 <!--Photo picker colors-->
-    <color name="colorPrimaryPix">#03a9f4</color>
+    <color name="colorPrimaryPix">#FF2952</color>
     <color name="colorPrimaryLightPix">#8003a9f4</color>
 
 
@@ -41,7 +41,7 @@
     <color name="yellow_color_picker">#FBE870</color>
     <color name="yellow_green_color_picker">#C5E17A</color>
     <color name="tool_bg">#151414</color>
-
+    <color name="redd">#e74c3c</color>
 
 
 </resources>
