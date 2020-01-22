@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ba1e32c-985f-45f1-a398-6ecf5e4850f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/raw/progress_tone.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeSlu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/sinch-android-rtc-3.14.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/ar/codeslu/plax/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/ar/codeslu/plax/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/debug/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/beyond_wonderland.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/beyond_wonderland.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/emojione-android.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/emojione-android.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/auto_fix.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/auto_fix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/b_n_w.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/b_n_w.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/brightness.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/brightness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/contrast.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/contrast.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/cross_process.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/cross_process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/documentary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/documentary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/dual_tone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/dual_tone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/fill_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/fill_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/fish_eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/fish_eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/flip_horizental.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/flip_horizental.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/flip_vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/flip_vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/grain.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/grain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/gray_scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/gray_scale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/lomish.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/lomish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/negative.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/negative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/posterize.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/posterize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/saturate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/saturate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/sepia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/sepia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/sharpen.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/sharpen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/temprature.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/temprature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/tint.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/tint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/filters/vignette.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/filters/vignette.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/1.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/2.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/2.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/3.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/3.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/4.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/4.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/5.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/5.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/6.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/6.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/7.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/7.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/fonts/8.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/fonts/8.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/loading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/loading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/notsound.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/notsound.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/AddGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/AddGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/AddUserGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/AddUserGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/ProfileGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Groups/ProfileGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/LockScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/LockScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/ContactsU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/ContactsU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/GroupAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/GroupAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/GroupsContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/GroupsContacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/SettingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/SettingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/StoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/StoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/Vpadapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/adapters/Vpadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/auth/Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/CallingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/CallingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/CallingActivityVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/CallingActivityVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/IncAudioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/IncAudioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/IncCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/IncCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/SinchCallListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/SinchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/calls/SinchVideoCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/AttachMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/AttachMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/BadgedDrawerArrowDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/ChatCelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/ChatCelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/GroupCelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/GroupCelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/MessageSelectD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/MessageSelectD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/ReactCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/ReactCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/profileSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/custom/profileSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/DialogData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/DialogData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/DialogDataG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/DialogDataG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/MessageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/datasetters/MessageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/db/TinyDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/db/TinyDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Calls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Calls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Chats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/fragments/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/AppBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/AppBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/GetTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/Global.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/NetworkStateMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/global/NetworkStateMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/CustomIncomingImageMessageViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/CustomIncomingImageMessageViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/CustomOutcomingImageMessageViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/CustomOutcomingImageMessageViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/DialogHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/DialogHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/DialogHolderG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/DialogHolderG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/IncomeHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/IncomeHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/IncomeOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/IncomeOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/OutcomeHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/OutcomeHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/OutcomeOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/holders/OutcomeOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/CountryToPhonePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/CountryToPhonePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/OnlineGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/OnlineGetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/StoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/StoryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/StoryListRetr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/StoryListRetr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/Tokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/Tokens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/myD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/myD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/senderD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/lists/senderD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/mediachat/Photoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/mediachat/Photoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/mediachat/VideoA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/mediachat/VideoA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/models/DefaultDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/models/DefaultDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/models/GroupDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/models/GroupDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMclient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMresp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/FCMresp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/NotificationChann.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/NotificationChann.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/notify/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settings/SettingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settings/SettingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/ChatSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/ChatSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/NotifSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/NotifSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/SecuSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/SecuSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/TestWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/settingsitems/TestWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/AddStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/AddStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/ColorPickerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/ColorPickerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/EmojiBSFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/EmojiBSFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/PropertiesBSFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/PropertiesBSFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/StickerBSFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/StickerBSFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/Stories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/TextEditorDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/TextEditorDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/base/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/filters/FilterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/filters/FilterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/filters/FilterViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/filters/FilterViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/tools/EditingToolsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/tools/EditingToolsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/tools/ToolType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/tools/ToolType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/translate_left_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/anim/translate_left_side.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/translate_right_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/anim/translate_right_side.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_slideshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/aa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/aa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/angry.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/angry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/attach_audio.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/attach_audio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/attach_file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/attach_file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/attach_gallery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/attach_gallery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/attach_location.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/attach_location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/attach_video.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/attach_video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bgc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bgc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/block_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/block_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btn_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/btn_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btn_bg_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/btn_bg_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btn_pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/btn_pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btn_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/btn_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btndark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/btndark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/butoon_follow_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/butoon_follow_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/button_message_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/button_message_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/camera_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/camera_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/circle_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/circle_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/circle_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/circle_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/corners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/corners.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/dialog_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/dialog_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/dialog_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/dialog_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/download_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/download_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/download_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/download_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/emoji_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/emoji_blue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/emoji_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/emoji_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/errorimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/errorimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/et_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/et_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/et_bg_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/et_bg_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/fav_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/fav_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/funny.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/funny.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/grad_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/grad_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/green_btn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/green_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/hlal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/hlal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/hlal_fill.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/hlal_fill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_action_copy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_action_copy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_action_delete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_action_delete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_brush.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_brush.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_call_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_call_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_camera_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_camera_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_chat_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_chat_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_close.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_close.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_delete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_delete_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_delete_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_delete_r.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_delete_r.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_emoji.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_emoji.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_enter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_eraser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_eraser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_font.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_font.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_gif_v.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_gif_v.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_image_i.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_image_i.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_info_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_info_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_insert_emoticon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_insert_emoticon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard_arrow_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard_arrow_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_language_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_language_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_lock_outline_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_lock_outline_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_notifications_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_notifications_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_nottt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_nottt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_phonelock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_phonelock.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_photo_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_photo_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_priority_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_priority_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_privacy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_privacy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_redo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_redo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_refresh_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_refresh_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_resend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_resend.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_save.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_save.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_sticker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_sticker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_twitter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_twitter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_undo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_undo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_video_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_video_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_wallpaper_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_wallpaper_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/image_visivility.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/image_visivility.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/like.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/like.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/line_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/line_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/loading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/loading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/love.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/love.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/m4over.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/m4over.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/mediabar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/mediabar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/mutedpeople.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/mutedpeople.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/nor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/nor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/offline_circ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/offline_circ.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/online_circ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/online_circ.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/over.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/over.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/pause_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/pause_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/pause_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/pause_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/play_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/play_b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/play_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/play_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/react_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/react_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/react_bg_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/react_bg_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/red_btn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/red_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_card.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_wire_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_wire_black.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_wire_g.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_wire_g.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/round_wire_r.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/round_wire_r.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/rounded_border_text_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/rounded_border_text_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sad.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/sad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/send_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/send_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/setting_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/setting_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_deleted.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_deleted.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_message_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_incoming_message_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_outcoming_deleted.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_outcoming_deleted.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_outcoming_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_outcoming_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/share_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/share_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/signout_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/signout_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/storybg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/storybg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/sun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sun_fill.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/sun_fill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/voice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/voice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/wh_round_btn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/wh_round_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/font/roboto_medium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/font/roboto_medium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_add_story.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_story.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_calling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_calling.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_calling_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_calling_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_chat_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_chat_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_data_set.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_data_set.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_inc_audio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_inc_audio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_inc_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_inc_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_lock_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_lock_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_photoa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_photoa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_secu_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_secu_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_stories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_test_wall.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_test_wall.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_verify.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_verify.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_videoa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_videoa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/add_text_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/add_text_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/attach_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/attach_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/chat_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/chat_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/color_picker_item_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/color_picker_item_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_add_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_add_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_add_user_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_add_user_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_chat_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_chat_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_notif_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_notif_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_secu_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_secu_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_stories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_custom_effect_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_custom_effect_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_properties_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_properties_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_calls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_calls.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_chats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_chats.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/group_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/group_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_date_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_date_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_dialog_custom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_dialog_custom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_incoming_image_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_incoming_image_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_incoming_other_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_incoming_other_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_incoming_text_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_incoming_text_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_image_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_image_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_other_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_other_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_text_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/item_outcoming_text_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/layout_tools_paint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/layout_tools_paint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/media_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/media_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/nav_header_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/profile_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/profile_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/profile_edit_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/profile_edit_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/react_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/react_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/row_editing_tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/row_editing_tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/row_emoji.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/row_emoji.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/row_filter_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/row_filter_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/row_sticker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/row_sticker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/select_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/select_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/select_dialog_chats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/select_dialog_chats.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/select_dialog_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/select_dialog_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/setting_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/setting_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/story_raw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/story_raw.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tab_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/tab_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tab_bar_w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/tab_bar_w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/user_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/user_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/voice_raw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/voice_raw.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/chat_actions_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/chat_actions_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-ar/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-de/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-de/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-es/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-fa/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-fa/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-fr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-fr/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-hi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-hi/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-it/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-it/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-pt/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-pt/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/drawables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/drawables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/font_certs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/backup_descriptor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/xml/backup_descriptor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/release/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ar/codeslu/plax/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/codeslu/plax/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/chatkitlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/chatkitlib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/proguard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/ViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/ViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IDialogG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IDialogG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/MessageContentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/commons/models/MessageContentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogListStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogListStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListAdapterG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListAdapterG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/dialogs/DialogsListG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkOnClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkOnClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/AutoLinkTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/LinkTouchMovementMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/LinkTouchMovementMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/RegexParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/RegexParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/TouchableSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/TouchableSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/link/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/GroupIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/GroupIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/MessageIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/MessageIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/UserIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/me/UserIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageHolders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageHolders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageInputStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessageInputStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesListStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/MessagesListStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/RecyclerScrollMoreListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/messages/RecyclerScrollMoreListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/DateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/DateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/RoundedImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/RoundedImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/ShapeImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/java/com/stfalcon/chatkit/utils/ShapeImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/ic_add_attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/ic_add_attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/ic_send.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/ic_send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/mask_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-hdpi/mask_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/ic_add_attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/ic_add_attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/ic_send.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/ic_send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/mask_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-mdpi/mask_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/ic_add_attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/ic_add_attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/ic_send.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/ic_send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/mask_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xhdpi/mask_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/ic_add_attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/ic_add_attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/ic_send.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/ic_send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/mask_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxhdpi/mask_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/ic_add_attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/ic_add_attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/ic_send.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/ic_send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/mask_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable-xxxhdpi/mask_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/bubble_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/bubble_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/shape_incoming_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/shape_incoming_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/shape_outcoming_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/drawable/shape_outcoming_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_date_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_date_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_incoming_image_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_incoming_image_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_incoming_text_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_incoming_text_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_outcoming_image_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_outcoming_image_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_outcoming_text_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/item_outcoming_text_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/layout/view_message_input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/layout/view_message_input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values-v21/fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values-v21/fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatkit/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatkit/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../plax.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinch-android-rtc-3.14.2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinch-android-rtc-3.14.2/sinch-android-rtc-3.14.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/androidTest/java/xute/storyview/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/androidTest/java/xute/storyview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/StoryPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryPlayerProgressView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryPlayerProgressView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryPreference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/java/xute/storyview/StoryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/codeslu/plax/story/StoryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/res/layout/activity_story_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/src/test/java/xute/storyview/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/src/test/java/xute/storyview/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storyview/storyview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../storyview/storyview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp" beforeDir="false" afterPath="$PROJECT_DIR$/../temp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../url.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ba1e32c-985f-45f1-a398-6ecf5e4850f7" name="Default Changelist" comment="" />
+      <created>1578829865918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578829865918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1386" height="788" extended-state="0" />
+    <layout>
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3295626" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Fabric" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>

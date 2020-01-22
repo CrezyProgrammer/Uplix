@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Job Circular</string>
+    <string name="tab_text_1">হোম</string>
+    <string name="tab_text_2">সরকারী</string>
+    <string name="tab_text_3">বেসরকারী</string>
+    <string name="tab_text_4">নোটিশ বোর্ড</string>
+    <string name="tab_text_5">হট জবস</string>
+    <string name="tab_text_6">জনপ্রিয়</string>
+    <string name="tab_text_7">Tab 2</string>
+    <string name="tab_text_8">Tab 2</string>
+    <string name="tab_text_9">Tab 2</string>
+</resources>
