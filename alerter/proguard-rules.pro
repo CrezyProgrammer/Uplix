@@ -15,3 +15,8 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keepattributes SourceFile,LineNumberTable
+# rename the source files to something meaningless, but it must be retained
+-renamesourcefileattribute ''
+ -keepclassmembers class com.up.lix.**
+ -keepclassmembers class com.up.lix.**{*;}

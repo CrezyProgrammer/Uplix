@@ -3,6 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'io.fabric'
 
 android {
+    signingConfigs {
+        relase {
+            storeFile file('C:\\Users\\masum2\\Desktop\\keys\\aaa3.jks')
+            storePassword 'masum1409'
+            keyAlias = 'key0'
+            keyPassword 'masum1409'
+        }
+    }
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.up.lix"
@@ -16,9 +24,10 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        //    minifyEnabled true
+          //  shrinkResources true
+          //  proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.relase
 
         }
     }
@@ -37,6 +46,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {

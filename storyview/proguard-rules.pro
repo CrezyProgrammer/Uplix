@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+ -keepclassmembers class com.up.lix.Groups.**
+ -keepclassmembers class com.up.lix.Groups.**{*;}
+ -keepattributes SourceFile,LineNumberTable
+ # rename the source files to something meaningless, but it must be retained
+ -renamesourcefileattribute ''

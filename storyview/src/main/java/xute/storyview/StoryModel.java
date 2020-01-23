@@ -3,13 +3,15 @@ package xute.storyview;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class StoryModel implements Parcelable {
+import java.io.Serializable;
+
+public class StoryModel implements Parcelable, Serializable {
     public String imageUri;
     public String name;
     public String time;
     public String id;
     public long timeL;
-
+public  StoryModel(){}
     public StoryModel(String imageUri, String name, String time, long timeL,String id) {
         this.imageUri = imageUri;
         this.name = name;

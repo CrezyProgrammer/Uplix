@@ -108,6 +108,7 @@ import com.vincent.filepicker.filter.entity.AudioFile;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -155,9 +156,9 @@ import static com.vincent.filepicker.activity.BaseActivity.IS_NEED_FOLDER_LIST;
 /**
  * Created by CodeSlu
  */
-public class Group extends AppCompatActivity
+ public class Group extends AppCompatActivity
         implements
-        MessagesListAdapter.OnLoadMoreListener, StickerBSFragment.StickerListener, MediaPicker.OnMediaListener {
+        MessagesListAdapter.OnLoadMoreListener, Serializable, StickerBSFragment.StickerListener, MediaPicker.OnMediaListener {
 
     //input
     static FirebaseAuth mAuth;
