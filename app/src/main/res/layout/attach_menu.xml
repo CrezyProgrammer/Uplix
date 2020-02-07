@@ -30,7 +30,7 @@ android:orientation="vertical">
                 android:id="@+id/gallery"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/attach_gallery" />
+                android:background="@drawable/ic_image" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"
@@ -52,7 +52,7 @@ android:orientation="vertical">
                 android:id="@+id/snap"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/snap" />
+                android:background="@drawable/ic_snap" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"
@@ -85,7 +85,7 @@ android:orientation="vertical">
                 android:id="@+id/audio"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/attach_audio" />
+                android:background="@drawable/ic_audio" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"
@@ -116,7 +116,7 @@ android:orientation="vertical">
                 android:id="@+id/video"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/attach_video" />
+                android:background="@drawable/ic_video" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"
@@ -148,7 +148,7 @@ android:orientation="vertical">
                 android:id="@+id/file"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/attach_file" />
+                android:background="@drawable/ic_file" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"
@@ -170,7 +170,7 @@ android:orientation="vertical">
                 android:id="@+id/location"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/attach_location" />
+                android:background="@drawable/ic_location" />
 
             <com.vanniktech.emoji.EmojiTextView
                 android:layout_width="wrap_content"

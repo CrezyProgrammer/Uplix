@@ -57,29 +57,31 @@
             android:orientation="horizontal"
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content">
+
             <Button
+                android:id="@+id/clear"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:background="@drawable/btn_bg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_b"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/clear_pattern"
-                android:id="@+id/clear"
-                android:layout_weight="1"
-                android:layout_marginEnd="10dp"
-                android:layout_gravity="center_horizontal"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
+
             <Button
+                android:id="@+id/forgot"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:background="@drawable/btn_bg"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_b"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/forgot_password"
-                android:id="@+id/forgot"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15sp" />

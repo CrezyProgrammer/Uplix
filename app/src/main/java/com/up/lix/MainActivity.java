@@ -200,9 +200,9 @@ public class MainActivity extends AppCompatActivity
         vp = findViewById(R.id.Vp);
         vp.setOffscreenPageLimit(3);
         meowBottomNavigation.add(new MeowBottomNavigation.Model(0, R.drawable.ic_call));
-        meowBottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_chat));
+        meowBottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_messages_btn));
 
-        meowBottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.ic_group));
+        meowBottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.ic_groups_btn));
         meowBottomNavigation.show(1, true);
         chats = new Chats();
         groups = new Groups();

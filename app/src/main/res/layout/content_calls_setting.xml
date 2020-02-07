@@ -55,19 +55,19 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/ic_delete_r"
+            android:src="@drawable/ic_clear_all_chats"
             android:id="@+id/clearI" />
+
         <TextView
             android:id="@+id/clearT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:text="@string/clear_call_logs"
-            android:gravity="center|start"
             android:layout_marginStart="15dp"
-            android:textColor="@color/red"
-            android:textSize="18sp"
-            />
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="@string/clear_call_logs"
+            android:textColor="@color/open_camera_bg"
+            android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>

@@ -157,10 +157,10 @@
 
         <Button
             android:id="@+id/videoCP"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:background="@drawable/butoon_follow_background"
             android:foreground="?android:attr/selectableItemBackground"
             android:paddingLeft="20dp"

@@ -4,105 +4,129 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
     android:orientation="vertical"
-    android:background="@drawable/bg"
     tools:context="com.up.lix.auth.DataSet">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/image_visivility"
-        android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1.5">
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/avatarSet"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:src="@drawable/profile"
-        android:onClick="changeprofile"
-        app:civ_border_width="2dp"
-        app:civ_border_color="#FF2952"/>
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:background="@color/colorPrimaryDark"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatarSet"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:onClick="changeprofile"
+                android:src="@drawable/ic_one_more_step"
+                app:civ_border_color="#FF2952"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/avatarSet"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/pacifico"
+                android:gravity="center"
+                android:text="One More Step"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_default">
 
-            <com.vanniktech.emoji.EmojiTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:layout_marginTop="20dp"
-                android:text="@string/name"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
-            <com.vanniktech.emoji.EmojiEditText
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/et_bg"
-                android:id="@+id/nameE"
-                android:singleLine="true"
-                android:layout_marginEnd="50dp"
-                android:maxLength="20"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="15dp"
-                android:textColorHint="@color/white"
-                android:paddingEnd="15dp"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
-            <com.vanniktech.emoji.EmojiTextView
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:layout_marginTop="20dp"
-                android:text="@string/statue"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
-            <com.vanniktech.emoji.EmojiEditText
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/et_bg"
-                android:id="@+id/statueE"
-                android:layout_marginEnd="50dp"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="15dp"
-                android:textColorHint="@color/white"
-                android:paddingEnd="15dp"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="50dp"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:background="@drawable/btn_bg"
-                android:fontFamily="sans-serif-medium"
-                android:paddingStart="70dp"
-                android:paddingEnd="70dp"
-                android:text="@string/next"
-                android:id="@+id/nextS"
-                android:textAllCaps="false"
-                android:textSize="16sp" />
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <com.vanniktech.emoji.EmojiTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/name"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.vanniktech.emoji.EmojiEditText
+                    android:id="@+id/nameE"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLength="20"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:singleLine="true"
+                    android:textColor="?attr/colorAccent"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp" />
+
+                <com.vanniktech.emoji.EmojiTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/statue"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.vanniktech.emoji.EmojiEditText
+                    android:id="@+id/statueE"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="?attr/colorAccent"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/nextS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/circle_b"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:paddingStart="70dp"
+                    android:paddingEnd="70dp"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
         </LinearLayout>
-
     </LinearLayout>
-</LinearLayout>
 </LinearLayout>

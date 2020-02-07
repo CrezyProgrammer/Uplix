@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:src="@drawable/list_bg3" />
+        android:src="@drawable/ic_mute_screen" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle"

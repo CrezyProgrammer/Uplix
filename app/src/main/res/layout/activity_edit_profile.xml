@@ -128,8 +128,8 @@
                     android:paddingRight="70dp"
                     android:text="@string/next"
                     android:id="@+id/nextS"
+                    android:textColor="#000"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
                     android:textSize="16sp" />
             </LinearLayout>
 

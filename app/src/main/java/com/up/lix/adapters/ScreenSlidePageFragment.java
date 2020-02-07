@@ -41,19 +41,19 @@ public class ScreenSlidePageFragment extends Fragment {
                 break;
             case 1:
                 textView.setText(getString(R.string.high_perform));
-                icon.setImageResource(R.drawable.perform);
+                icon.setImageResource(R.drawable.ic_high_performance);
                 break;
             case 2:
                 textView.setText(getString(R.string.feel_secure));
-                icon.setImageResource(R.drawable.secure);
+                icon.setImageResource(R.drawable.ic_feel_secure);
                 break;
             case 3:
                 textView.setText(getString(R.string.modern_design));
-                icon.setImageResource(R.drawable.design);
+                icon.setImageResource(R.drawable.ic_modern_design);
                 break;
             case 4:
                 textView.setText(getString(R.string.light_weii));
-                icon.setImageResource(R.drawable.feather);
+                icon.setImageResource(R.drawable.ic_lightweight);
                 break;
         }
 

@@ -6,9 +6,9 @@
 
     <!--ADMOB-->
     <string name="ADMOB_APP_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="Banner_ID" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="int_ID" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="nativ_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Banner_ID" translatable="false">ca-app-pub-3940256099942544/6300978110</string>
+    <string name="int_ID" translatable="false">ca-app-pub-3940256099942544/1033173710</string>
+    <string name="nativ_id" translatable="false">ca-app-pub-3940256099942544/6300978110</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
